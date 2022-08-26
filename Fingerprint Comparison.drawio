@@ -1,11 +1,200 @@
-<mxfile host="app.diagrams.net" modified="2022-08-25T04:23:42.130Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="tb95PNkUT887TiEsTq_n" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-26T01:55:58.286Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="yOmPWxU26bqcjT10aG2T" version="17.4.6" type="github">
   <diagram id="LeSsZMZWSCtxn_gezk7J" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2031" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Q0_GnNLQSm1IPSQkSUmm-1" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="350" width="120" height="80" as="geometry" />
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-3" value="&lt;h1&gt;&lt;font style=&quot;font-size: 48px&quot;&gt;&lt;u&gt;Fingerprint Comparison Chart&lt;/u&gt;&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="75" y="30" width="700" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-4" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Authentic Fingerprint&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=48;" vertex="1" parent="1">
+          <mxGeometry x="90" y="100" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-5" value="" style="endArrow=none;html=1;rounded=0;fontSize=24;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="QyKdqW9RcmO6rkH5TRZU-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="1090" as="sourcePoint" />
+            <mxPoint x="510" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-6" value="" style="endArrow=none;html=1;rounded=0;fontSize=24;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="100" as="sourcePoint" />
+            <mxPoint x="10" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-7" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Website opened on browser&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="75" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-8" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Web browser asks for certificate to verify identity&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="260" y="160" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-9" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QyKdqW9RcmO6rkH5TRZU-7" target="QyKdqW9RcmO6rkH5TRZU-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="450" as="sourcePoint" />
+            <mxPoint x="250" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-10" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;" edge="1" parent="1" source="QyKdqW9RcmO6rkH5TRZU-8" target="QyKdqW9RcmO6rkH5TRZU-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="450" as="sourcePoint" />
+            <mxPoint x="510" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-11" value="Certificate provided using public key that matches server&#39;s private key" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="260" y="320" width="155" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-12" value="Certificate checked against database of trusted certificates" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="300" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-13" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QyKdqW9RcmO6rkH5TRZU-11" target="QyKdqW9RcmO6rkH5TRZU-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="410" as="sourcePoint" />
+            <mxPoint x="510" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-14" value="Trusted?" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="75" y="460" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-15" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QyKdqW9RcmO6rkH5TRZU-12" target="QyKdqW9RcmO6rkH5TRZU-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="510" as="sourcePoint" />
+            <mxPoint x="510" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-21" value="Proceed w/ website, signaled as &quot;trusted&quot;" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="365" y="510" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-22" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QyKdqW9RcmO6rkH5TRZU-14" target="QyKdqW9RcmO6rkH5TRZU-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="460" as="sourcePoint" />
+            <mxPoint x="510" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-23" value="&lt;b&gt;Yes, unfortunately, both authentic and fradulent certificates will be &quot;trusted&quot; by the website&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="25" y="520" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-24" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="660" as="sourcePoint" />
+            <mxPoint x="840" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-26" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Fradulent Fingerprint&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=48;" vertex="1" parent="1">
+          <mxGeometry x="510" y="100" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-28" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Certificate intercepted by HTTPS Proxy Appliance&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="460" y="160" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-29" value="Any information can be logged, tracked, and analyzed" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="640" y="260" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-31" value="&quot;Spoofed&quot; public key falsely signs certificate using mismatching public key then presents it to website" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="570" y="430" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-33" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=12;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="QyKdqW9RcmO6rkH5TRZU-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="290" as="sourcePoint" />
+            <mxPoint x="510" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="340" />
+              <mxPoint x="350" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-34" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=12;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QyKdqW9RcmO6rkH5TRZU-28" target="QyKdqW9RcmO6rkH5TRZU-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="340" as="sourcePoint" />
+            <mxPoint x="510" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="330" />
+              <mxPoint x="570" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-36" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QyKdqW9RcmO6rkH5TRZU-29" target="QyKdqW9RcmO6rkH5TRZU-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="340" as="sourcePoint" />
+            <mxPoint x="510" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="380" />
+              <mxPoint x="460" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-37" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=12;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.933;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QyKdqW9RcmO6rkH5TRZU-31" target="QyKdqW9RcmO6rkH5TRZU-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="340" as="sourcePoint" />
+            <mxPoint x="380" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="430" />
+              <mxPoint x="330" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-45" value="&lt;span style=&quot;font-size: 24px&quot;&gt;To check for fingerprint authenticity&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="225" y="600" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-46" value="&lt;font style=&quot;font-size: 14px&quot;&gt;https://www.grc.com/fingerprints.htm#top&amp;nbsp;&lt;br&gt;&lt;font&gt;^Website can reliably provide any domain&#39;s Security Certificate&#39;s Authentic Fingerprint&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="270" y="680" width="310" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-47" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QyKdqW9RcmO6rkH5TRZU-21" target="QyKdqW9RcmO6rkH5TRZU-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="580" as="sourcePoint" />
+            <mxPoint x="190" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="580" />
+              <mxPoint x="190" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-48" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QyKdqW9RcmO6rkH5TRZU-21" target="QyKdqW9RcmO6rkH5TRZU-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="652.5735931288073" y="580.0042712474615" as="sourcePoint" />
+            <mxPoint x="585.248944894867" y="702.2901354870012" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="582" />
+              <mxPoint x="670" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-49" value="GRC&#39;s website allows includes detailed explanations as how to find certificate fingerprints in the more popular web browsers (IE, Google chrome, Firefox, Safari, etc.)" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="165" y="830" width="520" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-50" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QyKdqW9RcmO6rkH5TRZU-46" target="QyKdqW9RcmO6rkH5TRZU-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="990" as="sourcePoint" />
+            <mxPoint x="600" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-51" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QyKdqW9RcmO6rkH5TRZU-46" target="QyKdqW9RcmO6rkH5TRZU-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170.00105510513276" y="764.5798645129984" as="sourcePoint" />
+            <mxPoint x="245.18238222490754" y="820.0044793961712" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-52" value="Fingerprints will be identical (Note: capitalization and colons do not matter" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="20" y="990" width="295" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-53" value="HIGHLY LIKELY that fingerprints will not match: fradulent activity possible" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1010" width="350" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-54" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QyKdqW9RcmO6rkH5TRZU-49" target="QyKdqW9RcmO6rkH5TRZU-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="920" as="sourcePoint" />
+            <mxPoint x="460" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-56" value="&lt;font style=&quot;font-size: 12px&quot;&gt;No website interception happened: public key used to create certificate creates cryptographically matched pairs w/ private key in server&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="20" y="870" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-58" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QyKdqW9RcmO6rkH5TRZU-49" target="QyKdqW9RcmO6rkH5TRZU-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="820" as="sourcePoint" />
+            <mxPoint x="460" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QyKdqW9RcmO6rkH5TRZU-59" value="Website interception happened: public key used to create certificate DOES NOT create cryptographically matched pairs w/ private key in server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="660" y="870" width="150" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
