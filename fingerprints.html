@@ -1,0 +1,46 @@
+<html lang="en">
+  <head>
+    <title>Fingerprints</title>
+  </head>
+  <body>
+    
+    <h1>Fingerprints</h1>
+    
+    <p class="chapter-text intro-text">In the week of 8/22/2022-8/26/2022, I have spent an extraordinary amount of time reviewing and retaining newfound knowledge on Fingerprinting. The website in which I will be constantly referring to is linked here: https://www.grc.com/fingerprints.htm#top</p>
+
+    <br />
+
+    <p class="chapter-text intro-text">Included is a list of numerous websites and their Security Certificate's Authentic Fingerprint (which will be heavily reflected upon on this page).</p>
+    
+    <img src="https://i.postimg.cc/Y9jr9TB9/3-FB3-BB8-D-7-E21-4446-A063-2-B874620-ADF9.jpg" />
+
+    <p class="chapter-text intro-text">We begin by introducing the Internet - a public data network which allows data traffic to flow around the globe freely. As the internet gradually became more complex, gaining the usage of banks, hospitals, businesses, and everything else, security slowly but surely grew into a greater liability. However, in the more primitive age of the internet it was excruciatingly easy to monitor, watch, record, and log the actions of users by redirecting , examining, then returning data traveling through the wires. So, in order to protect the more “delicate” information (usernames, passwords, credit card numbers, etc.), a secure HTTPS connection was required. Thus,</p>
+    <h4>two primary purposes of a secure, HTTPS connection are to protect someone while logging into a site or encrypt other personal information against those wanting to commit thievery.</h4>
+    <p class="chapter-text intro-text">As companies began to realize the power of a secure HTTPS connection, they eventually migrated to the usage of such tools.</p>
+
+    <br />
+    
+     <p class="chapter-text intro-text"> However, furiously petty private institutions - corporations, schools, and other organizations - insist upon being able to monitor every action made by their employees online; thus, the deployment of a maliciously innovative technology appears: HTTPS Proxy Appliances. On the most basic level, a HTTPS Proxy Appliance intercepts data from users whilst being undetected by creating a fraudulent “spoofed” web server certificate (required by websites for identification) in an attempt to impersonate the intended remote web site (which it successfully does EVERY SINGLE TIME. This process is also referred to as a MITM, or man-in-the-middle, attack, which is extremely detrimental to cybernet security.</p>
+
+     <br />
+     
+     <p class="chapter-text intro-text"> Luckily, there is a bliss of good news, that is we have the ability to reliably detect any HTTPS Proxy Appliance through the use of hashes, or certificate fingerprints. As per mentioned above, a HTTPS Proxy Appliance presents the web browser with a fraudulent certificate. Naturally, the question comes to mind: how would a secure, “good” certificate differentiate between an already-intercepted one? First we must understand how certificates are utilized. When a person opens a website, a certificate is requested from the browser. Websites already contain a preset list of certificates that have been previously marked as trusted, which is what it will be looking for when the certificate is provided. However, each remote server the website is hosted on contains a public and private key, which form cryptographically matched pairs only with each other, the fingerprint aspect (hashes). Only the real, secure certificate’s public key can be used to encrypt data which the remote server can decrypt only using its matching private key. Thus, the HTTPS Proxy Appliance is forced to functionalize a different public key for which it does not have a matching private key, meaning that the fingerprint, or hash, of fraudulent and genuine certificates must be different.</p>
+
+     <br />
+     
+     <p class="chapter-text intro-text"> FUN HISTORICAL CYBERSECURITY FACT: a brief explanation on where the certificates derive from. In the near past, CA’s, or certificate authorities, were required to prove their identity in the real physical world for web browsers and their preset databases of trusted certificates.</p>
+
+     <br />
+     
+     <p class="chapter-text intro-text"> Returning to the previous gospel of detectable HTTPS proxy appliance interceptions, there is a slight caveat. That is, under the condition that websites with a massively distributed web presence, such as amazon or google, employ multiple (more than one) certificates, which means that two different people could obtain 2 different yet trusted certificate fingerprints, thus leading them to erroneously believe that the web page was being intercepted (false positive).</p>
+
+     <br />
+     
+     <p class="chapter-text intro-text"> Finally, the necessity of ethics must be pondered upon, and that is if companies or corporations have the right to employ HTTPS proxy appliances to eavesdrop on their employees’ communications. The next part will be of my own opinion; I believe that school / government / ISP does not have a right to eavesdrop on my communications simply because personal information (which is personal for a reason) is transmitted.</p>
+
+     <br />
+     
+     <p class="chapter-text intro-text"> For further clarification (a visual) on the process of fingerprinting, included below is a detailed flowchart describing an algorithm to compare an authentic fingerprint with another retrieved from a browser.</p>
+    
+  </body>
+</html>
