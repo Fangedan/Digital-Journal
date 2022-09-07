@@ -1,1 +1,154 @@
-<mxfile host="app.diagrams.net" modified="2022-09-07T15:17:38.551Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.2.7" etag="OLJOtcDad1C6affN4dH5" type="github"><diagram id="ugbNlbT8aDkATnWuXU5G">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-07T15:57:02.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="FFZKwg4phwtXGMaHdfJk" version="20.2.7" type="github">
+  <diagram id="ugbNlbT8aDkATnWuXU5G" name="Page-1">
+    <mxGraphModel dx="1662" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-1" value="&lt;h1&gt;&lt;font style=&quot;font-size: 48px&quot;&gt;&lt;u&gt;Quicksort Algorithm Chart&lt;/u&gt;&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="30" width="700" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-2" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Flowy Itchy&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-5" value="List &lt;br&gt;[array]&lt;br&gt;[STDIN]" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="385" y="120" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-6" value="If list contains &amp;lt; 2 number of values, print list" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="620" y="200" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XBVMV-LLbCI6lgzOACL9-5" target="XBVMV-LLbCI6lgzOACL9-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="380" as="sourcePoint" />
+            <mxPoint x="530" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-8" value="Choose random word in list, then compare to all other words&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="367.5" y="250" width="125" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-9" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XBVMV-LLbCI6lgzOACL9-5" target="XBVMV-LLbCI6lgzOACL9-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="370" as="sourcePoint" />
+            <mxPoint x="530" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-10" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Real!&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="375" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-11" value="If beginning letter number of random word chosen &amp;gt; beginning letter number of word being compared, move compared word to left side" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="120" y="330" width="205" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-12" value="Assign beginning letter of word to a number (ex. a=1, b=2)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="180" y="100" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-13" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XBVMV-LLbCI6lgzOACL9-12" target="XBVMV-LLbCI6lgzOACL9-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="290" as="sourcePoint" />
+            <mxPoint x="530" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-14" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XBVMV-LLbCI6lgzOACL9-6" target="XBVMV-LLbCI6lgzOACL9-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="290" as="sourcePoint" />
+            <mxPoint x="530" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-15" value="List contains &amp;gt; 2 number of values" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="500" y="280" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-16" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XBVMV-LLbCI6lgzOACL9-8" target="XBVMV-LLbCI6lgzOACL9-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="350" as="sourcePoint" />
+            <mxPoint x="530" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-18" value="Left" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-21" value="If beginning letter number of random word chosen &amp;gt; beginning letter number of word being compared, move compared word to left side" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="520" y="345" width="205" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-22" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XBVMV-LLbCI6lgzOACL9-8" target="XBVMV-LLbCI6lgzOACL9-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="500" as="sourcePoint" />
+            <mxPoint x="530" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-23" value="Right" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="500" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-24" value="Repeat" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="260" y="570" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-25" value="Repeat" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="110" y="570" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-26" value="Repeat" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="520" y="580" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-27" value="Repeat" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="650" y="580" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-28" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XBVMV-LLbCI6lgzOACL9-11" target="XBVMV-LLbCI6lgzOACL9-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="520" as="sourcePoint" />
+            <mxPoint x="530" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-29" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XBVMV-LLbCI6lgzOACL9-11" target="XBVMV-LLbCI6lgzOACL9-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="510" as="sourcePoint" />
+            <mxPoint x="175.07192516810278" y="582.9481839617474" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-30" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=0.166;exitY=0.89;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XBVMV-LLbCI6lgzOACL9-21" target="XBVMV-LLbCI6lgzOACL9-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="500" as="sourcePoint" />
+            <mxPoint x="530" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-31" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XBVMV-LLbCI6lgzOACL9-21" target="XBVMV-LLbCI6lgzOACL9-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="500" as="sourcePoint" />
+            <mxPoint x="530" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-32" value="Less" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="140" y="535" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-33" value="Less" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="550" y="550" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-34" value="More" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="250" y="535" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-35" value="More" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="640" y="540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-36" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XBVMV-LLbCI6lgzOACL9-25" target="XBVMV-LLbCI6lgzOACL9-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="500" as="sourcePoint" />
+            <mxPoint x="530" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-37" value="Change Occurred" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="20" y="470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-38" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XBVMV-LLbCI6lgzOACL9-27" target="XBVMV-LLbCI6lgzOACL9-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="490" as="sourcePoint" />
+            <mxPoint x="530" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XBVMV-LLbCI6lgzOACL9-39" value="Change Occurred" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="770" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
