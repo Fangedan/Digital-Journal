@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Andrew Lin ISP Proposal</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://i.postimg.cc/3RTM8dxY/allenhighschoolemptycafeteria.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#introduction" class="w3-button w3-block w3-black">INTRODUCTION</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#details" class="w3-button w3-block w3-black">DETAILS</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#the vision" class="w3-button w3-block w3-black">THE VISION</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Allen High School Cafeteria</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-tag" style="font-size:80px">The Cafe Project</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-tag">300 Rivercrest Blvd, Allen, TX 75002</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="introduction">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">INTRODUCING: THE CAFE PROJECT</span></h5>
+    <p>The Cafe Project ultimately aims to aid in school cafeteria's extensive lunch line problems.</p>
+    <p>Although there are some students that source their mid-day meal from out of school sources, the majority of students seek nutrition from their school's cafeterias. However, as schools grow their student body/population, lunch lines develop increasingly longer wait times; some extremes completely negate the student's ability to receive a lunch.</p>
+    <p>Our solution is to develop a technology-based system/app in which students can pre-order lunches securely, then pick up their desired food at the location which they select. This way, lunch lines would move much faster: only identity would need to be provided at the physical location, then food would be almost instantly received.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"What is Allen ISD going to do about their overpopulation crisis?"</i></p>
+      <p>Student, Software Designer and Owner of The Cafe Project: Andrew Lin</p>
+    </div>
+    <p><strong>Expected Operating Hours:</strong> everyday and all day</p>
+    <p><strong>Patient Zero High School Address:</strong> 300 Rivercrest Blvd, Allen, TX, TX 75002</p>
+  </div>
+</div>
+
+<!-- Details Container -->
+<div class="w3-container" id="details">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">DETAILS</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Effectiveness');" id="myLink">
+        <div class="w3-col s6 tablink">Effectiveness</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Economy');">
+        <div class="w3-col s6 tablink">Economy</div>
+      </a>
+    </div>
+
+    <div id="Effectiveness" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Target Market</h5>
+      <p class="w3-text-grey">The target market will primarily be for high school students with a personal device and ability to connect to the internet wishing to speed up their wait time in the school lunches.</p><br>
+    
+      <h5>The Competition</h5>
+      <p class="w3-text-grey">After a thourough examination, our team concluded that there were around 2 schools in upstate New York implementing a system similar to ours, however to a lesser extent. If our program succeeds, it would far outweigh the effectiveness of other school's lunch ordering system.</p><br>
+    
+    </div>
+
+    <div id="Economy" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Revenue Streams</h5>
+      <p class="w3-text-grey">In the app/system, ordering a school lunch would allow you to choose where and what lunch you would like to pick up. We would allow the student to pay as soon as they order, with an extra added fee of around $0.25 for each order, almost negligible to the majority of the student population. (Note: keeping in mind those who are on the Free/Reduced lunch program, we would attain that information when the student logs in to the app, and thus be able to provide free lunch with limited choices.)</p><br>
+    
+      <h5>Expenses</h5>
+      <p class="w3-text-grey">The only expense would be the minimal amount of extra labor required to package orders together at a lunch location. However, our team could use that labor in a joint effort with the school's culinary arts program to provide both a job for students, as well as the service mentioned.</p><br>
+
+      <h5>Marketing Activities</h5>
+      <p class="w3-text-grey">Emails, newsletters, posters, and school announcements encouraging students to download the app would be prelavent throughout the school. In addition, the first few students to utilize the system are expected to have a positive experience, thus dispersing the news/effectiveness/ease/relief to other peers.</p><br>
+    
+    </div>  
+
+  </div>
+</div>
+
+<!-- The Vision Container -->
+<div class="w3-container" id="the vision" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE VISION</span></h5>
+
+    <p><span class="w3-tag">Team and Key Roles</span> Currently, the only team member is the owner, Andrew Lin. As profits increase, The Cafe Project will look to employ additional members to support with bug fixes, represent, and most importantly, seek more schools to implement the system.</p>
+
+    <p><span class="w3-tag">Milestones</span> The patient zero school we plan on launching in is: Allen High School. If we find success, we will plan on spreading to more school districts, dispensing a speedier lunch for all students across the globe.</p>
+
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
